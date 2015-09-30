@@ -1,0 +1,13 @@
+﻿@model IEnumerable<PFIT_Burkut.Domain.Entities.Film>
+
+@foreach(var a in Model)
+{<table>
+     <tr> @a.Id</tr>
+     <tr> @a.Title</tr>
+     <tr> @a.Producer</tr>
+     <tr> @a.Time</tr>
+     <tr> @a.Genre</tr>
+     <tr> @a.Country</tr>
+    </table>
+   
+}
